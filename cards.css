@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    min-height: 300px;
+    margin: auto;
+
+}
+
+.info{
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+/* .info:nth-child(odd){
+    margin-left: 0;
+}
+
+.info:nth-child(even){
+} */
+
+
+.logo{
+    width: 120px;
+    height: 110px;
+    margin-top: -20px;
+
+}
+
+.info:nth-child(odd) .logo{
+    float: left;
+    margin-left: -20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.info:nth-child(even){
+}
+
+.info:nth-child(even) .logo{
+    float: right;
+    margin-right: -20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo + p{
+    margin: 20px;
+    /* font-family: sans-serif; */
+    font-size: 1.1em;
+}
+
+.logo + p::first-letter{
+    font-size: 3em;
+}
+
+/* .logo:hover{
+    width: 130px;
+    height: 120px;
+}
+
+.info:hover{
+
+} */
+
+@media screen and (min-width: 767px) {
+    .info{
+        width: 70%;
+    }
+    .info:nth-child(odd){
+        float: left;
+    }
+
+    .info:nth-child(even){
+        float: right;
+    }
+}
