@@ -224,6 +224,7 @@ h2{
 @media (max-width: 420px) {
   .nav-terms-policy {
     padding: 0 0;
+    padding-right: 5px;
   }
 }
 
