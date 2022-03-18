@@ -4,5 +4,5 @@
 ###### Contributors:
   1. Pratiksha Gaikwad - Navbar.
   2. Azad Adarsh - Body (consultance).
-  3. Pushp Ratan - Body (Design).
-  4. Vivek Nakka - Footer.
+  3. Pushp Ratan - Body, footer (Design). 
+  4. Vivek Nakka - Footer (HTML & Images).
