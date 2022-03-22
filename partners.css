@@ -18,16 +18,28 @@ ul {
 .container{
     width: 80%;
     max-width: 1170px;
-    min-height: 300px;
     margin: auto;
 
+}
+
+.stcont{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    background: #7daae6b7;
+}
+
+.stcont section{
+    /* padding-top: 1px; */
 }
 
 .title{
     text-align: center;
 }
 h4{
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 500;
     color: #000000b4;
 }
@@ -41,84 +53,59 @@ h2{
 .info{
     width: 95%;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    /* margin-bottom: 20px; */
     padding-bottom: 10px;
+    padding-top: 30px;
+    background: white;
+    border-radius: 0 0 20px 20px;
+    border-top: 3px solid purple;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    
+
 }
 
+.info:last-child{
+    margin-bottom: 0;
+}
 
 
 .logo{
     width: 120px;
     height: 110px;
-    margin-top: -20px;
+    margin-top: 20px;
+    margin: auto;
     /* border: 2px solid black; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
+
+    transform: scale(1.2);
 }
 
 .logo img{
   border-radius: 20px;
 }
 
-.info:nth-child(odd) .logo{
-    float: left;
-    margin-left: -20px;
-    margin-right: 20px;
-}
 
-.info:last-child{
-  margin-bottom: 120px;
-}
-
-.info:nth-child(even) .logo{
-    float: right;
-    margin-right: -20px;
-    margin-left: 20px;
-}
 
 .logo + p{
     margin: 20px;
+    margin-top: 15px;
     /* font-family: sans-serif; */
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .logo + p::first-letter{
-    font-size: 3em;
+    font-size: 2em;
 }
 
-.logo:hover{
-    width: 122px;
-    height: 112px;
-}
 
-.logo img:hover{
-  width: 122px;
-    height: 112px;
-}
-
-.info:hover{
-  width: 96%;
-}
 
 @media screen and (min-width: 767px) {
     .info{
         width: 70%;
     }
 
-    .info:hover{
-      width: 71%;
-    }
 
-    .info:nth-child(odd){
-        float: left;
-    }
-
-    .info:nth-child(even){
-        float: right;
-    }
 }
 
 
@@ -140,27 +127,26 @@ h2{
     z-index: 1000;
     justify-content: space-between;
   }
-  
+
   .nav-logo {
-    float: left;
     height: auto;
     padding-left: 10px;
     /* padding: 20px; */
   }
-  
+
   .nav-logo img {
     height: 40px;
   }
-  
+
   .nav-logo img:nth-child(2) {
     height: 60px;
     display: none;
   }
-  
+
   .nav-bar {
     padding: 10px 20px;
   }
-  
+
   .nav-bar a {
     font-size: 18px;
     font-weight: 700;
@@ -169,16 +155,16 @@ h2{
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
-  
+
   .nav-bar a:hover {
     transition: 0.2s ease-in-out;
     color: #414ad7;
   }
-  
+
   .nav-terms-policy {
     padding: 10px 20px;
   }
-  
+
   .nav-terms-policy a {
     font-size: 18px;
     font-weight: 600;
@@ -190,7 +176,7 @@ h2{
     color: white;
     text-decoration: none;
   }
-  
+
   .nav-terms-policy a:hover {
     transition: 0.2s ease-in-out;
     color: #414ad7;
@@ -278,7 +264,7 @@ h2{
   .nav-terms-policy a i:hover {
     transition: 0.2s ease-in-out;
   }
-  
+
 }
 
 
@@ -326,7 +312,7 @@ h2{
 }
 
 .footer-col .company{
-  display: flex; 
+  display: flex;
 }
 
 .footer-col .company ul {
@@ -343,7 +329,7 @@ h2{
 }
 
 .footer-col .company ul li , .footer-col .company ul li a {
-  text-align: left; 
+  text-align: left;
 }
 
 .footer-col ul li a,
@@ -393,7 +379,7 @@ h2{
 }
 
 .social-list{
-  display: flex; 
+  display: flex;
   flex-direction: column;
 }
 
@@ -402,8 +388,8 @@ img, svg{
 }
 
 .copyrights{
-  text-align: center !important; 
-  margin-top: 20px !important; 
+  text-align: center !important;
+  margin-top: 20px !important;
   width: 100% !important;
 }
 
@@ -416,13 +402,13 @@ img, svg{
 }
 
 .footer-image img{
-  text-align: center !important; 
-  height:auto !important; 
+  text-align: center !important;
+  height:auto !important;
   margin-top:15px !important;
 }
 
 .copyrights p{
-  color:aliceblue !important; 
+  color:aliceblue !important;
   font-size:12px !important;
 }
 
