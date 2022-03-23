@@ -16,19 +16,15 @@ ul {
 }
 
 .container{
-    width: 80%;
     max-width: 1170px;
     margin: auto;
-
 }
 
 .stcont{
-    margin-top: 70px;
     margin-bottom: 100px;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 20px;
-    background: #7daae6b7;
 }
 
 .stcont section{
@@ -51,9 +47,10 @@ h2{
 }
 
 .info{
-    width: 95%;
+    width: 90%;
+    max-width: 1000px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     /* margin-bottom: 20px; */
     padding-bottom: 10px;
     padding-top: 30px;
@@ -102,9 +99,11 @@ h2{
 
 @media screen and (min-width: 767px) {
     .info{
-        width: 70%;
+        width: 100%;
     }
-
+    .container{
+        width: 90%;
+    }
 
 }
 
