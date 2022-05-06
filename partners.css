@@ -66,9 +66,9 @@ h2{
 
 }
 
-.info:last-child{
+/* .info:last-child{
     margin-bottom: 0;
-}
+} */
 
 
 .logo{
@@ -354,6 +354,7 @@ h2{
   width: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
+  padding: 10px;
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
